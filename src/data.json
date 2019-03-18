@@ -1,0 +1,18 @@
+{
+    "users":{
+        "387-039-048":{
+            "name": "Cosme",
+            "lastname": "Fulanito",
+            "age": 29,
+            "state": "Estado de México",
+            "preferences": "los memes de Peña Nieto"
+        },
+        "048-387-039":{
+            "name": "Lalo",
+            "lastname": "Landa",
+            "age": 19,
+            "state": "Veracruz",
+            "preferences": "jugar football"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.nyc_output/
+coverage/
+node_modules/
+
+.DS_Store
+*.swp
+
+.env
+# credenciales apikey se usa para que los archivo que tienen info confidencial no se suba

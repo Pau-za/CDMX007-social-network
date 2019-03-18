@@ -1,12 +1,30 @@
+
+.part-logo{ 
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0%;
+}
+#logo-intro{
+
+  width: 90%;
+  display: block;
+  border: 0px; 
+  margin: 0 auto;
+
+}
+
+
 .boxes {
   --size: 32px;
   --duration: 800ms;
   height: calc(var(--size) * 2);
   width: calc(var(--size) * 3);
-  position: relative;
+  position: absolute;
+  top: 60%;
   transform-style: preserve-3d;
   transform-origin: 50% 50%;
-  margin-top: calc(var(--size) * 1.5 * -1);
+  margin: 0 auto;
   transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);
 }
 .boxes .box {
@@ -128,17 +146,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #F4F2F3;
+  background: white;
 }
-body .dribbble {
-  position: fixed;
-  display: block;
-  right: 20px;
-  bottom: 20px;
-}
-body .dribbble img {
-  display: block;
-  height: 28px;
-}
+
 
 /*# sourceMappingURL=style.css.map */

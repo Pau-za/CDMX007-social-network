@@ -1,3 +1,42 @@
+# Red Social: Tejiendo en Azul
+### Nuestro primer contacto con las redes sociales 
+Las tres integrantes del equipo conocimos el mundo de las redes sociales mediante [hi5](https://hi5.com/). Era un mundo nuevo por descubrir, nos gustaba que podíamos personalizar el fondo de nuestro muro. 
+
+### Necesidades de nuestros usuarios
+La integrante del equipo Paulina, tuvo la oportunidad de darle clases a estudiantes de bachillerato con todo tipo de discapacidad. Y se dio cuenta de que los estudiantes que se tenían algún [Trastorno del Espectro Autista](https://www.who.int/features/qa/85/es/), solían tener dificultades para socializar e interactuar con sus compañeros. Los estudiantes con las características mencionadas querían tener amigos, pero no sabían cómo hacerlo, y algunos de ellos buscaban relacionarse con personas mediante redes sociales como [Facebook](https://www.facebook.com/). Sin embargo, Paulina se dio cuenta de que los estudiantes se ponían en situaciones de riesgo al realizar la práctica de agregar como sus "amigos/as" a personas que no conocían. 
+
+Otra característica que notó Paulina fue que las personas dentro del *Trastorno del Espectro Autista*, es que tienen gustos e intereses muy particulares, y les encanta hablar de ellos todo el tiempo. Sin embargo, eso también los puede hacer vulnerables. Por ejemplo, a su ex-estudiante Juan le encanta coleccionar muñecas [Monster High](http://play.monsterhigh.com/en-us/character/index.html), lo cual lo hizo blanco de burlas de personas poco empáticas y conscientes de la Discapacidad. Y las personas con Discapacidad tienen tanto [derecho a la libertad de expresión, la comunicación, la inclusión, etc.](http://www.diputados.gob.mx/LeyesBiblio/pdf/LGIPD_120718.pdf) como todas nosotras.
+
+Por lo tanto decidimos trabajar en una Red Social en la que las personas dentro del *Espectro Autista* puedan sentirse libres de compartir todo sobre sus intereses personales, y seguros al interactuar con personas que pueden estar viviendo situaciones similares en su día a día.
+
+El nombre de nuestra Red Social es *Tejiendo en Azul*. La palabra "tejiendo" la elegimos porque queremos que sea un sitio en el que las personas dentro del *Espectro* pueda crear _redes_, hacer _comunidad_, y el "azul" lo elegimos como el color base de nuestra red social porque [es el color del *Autismo*](https://www.elcomercio.com/afull/azul-simbolo-autismo-dia-onu.html). Además agregamos como parte de nuestro logo, una pieza de rompecabezas, ya que se utiliza para conscientizar sobre la [complejidad del *Trastorno*](https://autismodiario.org/2017/06/13/autismo-una-pieza-rompecabezas-la-evolucion-humana/). A continuación se presenta nuestro logo:
+
+![Logo-Tejiendo-en-Azul](https://github.com/lore0223/CDMX007-social-network/blob/master/src/images/logo-red-sin-fondo.png)
+
+### Prototipos: Tejiendo en Azul
+
+A continuación presentamos nuestros prototipos de baja y alta fidelidad:
+
+### Encuesta
+
+Para conocer si las personas dentro del *Trastorno del Espectro Autista* utilizarían una red social con el enfoque de _Tejiendo en Azul_, decidimos realizar un [cuestionario](https://docs.google.com/forms/d/e/1FAIpQLSfV6EjAU24cl-rAF6pH_tPyC3RHnyCeo0XN_B9iXloXBVAqEw/viewform) a estudiantes con discapacidad de nivel bachillerato de entre 15 y 18 años, de un [Centro de Atención para Estudiantes con Discapacidad, CAED](http://www.sems.gob.mx/es_mx/sems/bnned_bachillerato_no_escolarizado_personas_discapacidad).
+
+Obtuvimos dos respuestas de personas dentro del Espectro, y 3 respuestas de personas con alguna otra discapacidad. Nos dimos cuenta de que una red social con este enfoque no es útil únicamente para personas dentro del Espectro Autista. En general a las personas con discapacidad se les dificulta relacionarse a través de redes sociales con otras personas que tengan alguna discapacidad. Y los cinco encuestados afirmaron que utilizarían nuestra red social, ya que además de conocer personas con alguna discapacidad podrían utilizarla para intercambiar información sobre los visto en sus clases, y sobre las tareas.
+
+### Principales funcionalidades del producto
+
+
+### Usability Tests
+
+
+### Cómo asegurarnos de que los usuarios utilicen la red
+
+Puede ser utilizada por los profesores para iformarles sobre las tareas, o compartirles material para estudiar para sus exámenes.
+
+
+
+----------------------------------------------
+
 # Creando una Red Social
 
 ## Preámbulo
