@@ -11,7 +11,7 @@ Por lo tanto decidimos trabajar en una Red Social en la que las personas dentro 
 
 El nombre de nuestra Red Social es *Tejiendo en Azul*. La palabra "tejiendo" la elegimos porque queremos que sea un sitio en el que las personas dentro del *Espectro* pueda crear _redes_, hacer _comunidad_, y el "azul" lo elegimos como el color base de nuestra red social porque [es el color del *Autismo*](https://www.elcomercio.com/afull/azul-simbolo-autismo-dia-onu.html). Además agregamos como parte de nuestro logo, una pieza de rompecabezas, ya que se utiliza para conscientizar sobre la [complejidad del *Trastorno*](https://autismodiario.org/2017/06/13/autismo-una-pieza-rompecabezas-la-evolucion-humana/). A continuación se presenta nuestro logo:
 
-![Logo-Tejiendo-en-Azul](https://github.com/lore0223/CDMX007-social-network/blob/master/src/images/logo-red-sin-fondo.png)
+![Logo-Tejiendo-en-Azul](https://github.com/lore0223/CDMX007-social-network/blob/master/public/images/logo-red-sin-fondo-contraste.png)
 
 ### Prototipos: Tejiendo en Azul
 

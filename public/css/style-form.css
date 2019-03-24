@@ -1,0 +1,310 @@
+body {
+  color: #0B0A06;
+  background-color: rgba(84, 182, 191, 0.37);
+}
+
+ul {
+  list-style: none;
+}
+
+.fixed{
+  position: fixed;
+}
+
+.head-and-foot {
+  width: 100%;
+  background-color: #F4F4F4;
+  color: #0B0A06;
+  z-index: 1;
+  
+}
+
+#logout {
+  font-size: 1rem;
+  background-color: #B2080B;
+  color: #F4F4F4;
+  border-radius: 5%;
+  
+}
+
+#complete-logo {
+  display: none;
+}
+
+.page {
+  display: none;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  padding: 1rem 2rem;
+  margin-top: 23%;
+}
+
+.active {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+#header-buttons {
+  display: none;
+  background-color: #F2F2ED;
+  color: #F2F2ED;
+  text-align: left;
+}
+
+#burger {
+  margin: 0% 98% 0% -6%;
+}
+
+/* profile */
+.bg-1 {
+  background-color: #195259;
+  color: #ffffff;
+  margin-top: 56%;
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.bg-2 {
+  background-color: rgb(131, 5, 7);
+  color: #ffffff;
+}
+
+.bg-3 {
+  background-color: #F4F4F4;
+  color: #555555;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+/* termina profile */
+
+#user-photo{
+  width: 25%;
+  margin-left: 37%;
+  
+}
+
+/* Mobile design */
+@media only screen and (max-width: 600px) {
+  input {
+    width: 80%;
+    text-align: center;
+  }
+
+  menu {
+    margin: 2% 0% 0% 1%;
+  }
+
+  li {
+    padding: 0%;
+    text-align: center;
+  }
+
+  .head-and-foot {
+    height: 11%;
+    padding-left: 2%;
+  }
+
+  .page {
+    margin-top: -12%;
+    text-align: center;
+  }
+
+  #logout {
+    height: 0%;
+    padding: 1%;
+    width: 157%;
+    margin: 14% 0% 0% 8%;
+  }
+
+  /* #complete.logo {
+    display: none;
+  } */
+
+  #user-information {
+    margin-top: 40%;
+  }
+
+  #send {
+    margin-top: 10%;
+  }
+
+  #container {
+    width: 80%;
+    display: grid;
+    margin-left: 10%;
+  }
+
+  #firebaseui-auth-container {
+    margin-top: 70%;
+  }
+
+  #logo {
+    width: 20%;
+    margin: 1% 0% 2% 3%;
+  }
+
+  #personalised-welcome {
+    width: 60%;
+    margin: -3% -3% -3% 3%;
+    display: -webkit-inline-box;
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  #send {
+    background-color: #B2080B;
+    color: #F4F4F4;
+  }
+
+  /* profile */
+  .bg-1 {
+    background-color: #195259;
+    color: #ffffff;
+    margin-top: 56%;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .bg-2 {
+    background-color: rgb(131, 5, 7);
+    color: #ffffff;
+  }
+
+  .bg-3 {
+    background-color: #F4F4F4;
+    color: #555555;
+  }
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  /* termina profile */
+  body .dribbble {
+    position: fixed;
+    display: block;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  body .dribbble img {
+    display: block;
+    height: 28px;
+  }
+
+  #post-btn {
+    margin-top: 45%;
+  }
+
+  #wall {
+    margin-top: 7%;
+    max-width: 32rem;
+  }
+}
+
+
+/* Para tablets */
+@media only screen and (min-width: 600px) {
+  .head-and-foot {
+    padding: 2% 0% 2% 0%;
+    display: flex;
+    margin-top: -3%;
+    height: 25%;
+  }
+
+  menu {
+    display: block;
+    margin: 0% 0% 0% 0%;
+  }
+
+  ul {
+    margin-top: 5%;
+  }
+
+  a {
+    size: 1.5rem;
+  }
+
+  #logo {
+    width: 19%;
+    margin: 7% 0% 0% 3%;
+    height: 75%;
+  }
+
+  #personalised-welcome {
+    margin: 2% 0% 0% -20%;
+  }
+
+  #logout {
+    padding: 3%;
+    width: 46%;
+    margin: -4% 0% 0% 110%;
+  }
+
+  .page {
+    margin-top: 25%;
+  }
+
+  /* #wall {
+    margin-top: 7%;
+  } */
+
+  #profile {
+    margin-top: -25%;
+  }
+}
+
+/* Laptops y desktops */
+@media only screen and (min-width: 992px) {
+  .head-and-foot {
+    padding: 2% 0% 2% 0%;
+    display: flex;
+    margin-top: -3%;
+    height: 20%;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #complete-logo {
+    display: block;
+    width: 12%;
+    height: 105%;
+    margin: 1% 0% 0% 8%;
+  }
+
+  ul {
+    margin: 30% 0% 0% 40%;
+    display: -webkit-box;
+  }
+
+  li {
+    border: solid thin #0B0A06;
+    margin-top: -15%;
+  }
+
+  .page {
+    margin-top: 12%;
+  }
+
+  #logout {
+    margin: -4% 0% 0% 0%;
+  }
+}

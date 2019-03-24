@@ -20,8 +20,9 @@ let appFireBase = {};
       if (!path || !body) return;
       appFireBase.database().ref(path).update(body, callBack);
     }
-    const fnDelete = (path, callBack) => {
-      if (!path || !body) return;
+    const fnDelete = () => {
+      
+      if (!path) return;
       appFireBase.database().ref(path).remove(callBack);
     }
 

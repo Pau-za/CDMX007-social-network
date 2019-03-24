@@ -4,42 +4,53 @@
 <head>
   <meta charset="UTF-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.5,  maximum-scale=2.0, minium-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>TA: Registro</title>
 
   <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
   <link rel="stylesheet" href="../css/style-form.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
-<header class="head-and-foot">
-  <img id="logo" src="../images/just-logo-sin-fondo.png" alt="imagen del logo tejiendo en azul">
-  <h2 id="personalised-welcome">Bienvenido a Tejiendo en Azul</h2>
-</header>
-
 
 <body>
+
+
+  <header class="head-and-foot fixed">
+    <img id="logo" src="../images/just-logo-sin-fondo.png" alt="imagen del logo tejiendo en azul">
+    <h4 id="personalised-welcome">Tejiendo en Azul</h4>
+    <img id="complete-logo" src="../images/logo-red-sin-fondo-contraste.png" alt="imagen de Tejiendo en Azul">
+    <nav class = "fixed">
+      <menu id="general-menu">
+        <div id="burger" title="menú">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div id="header-buttons">
+          <ul>
+            <li><a href="#" data-target="user-information" class="nav-link header">Editar información personal</a></li>
+            <li><a href="#" data-target="profile" class="nav-link header">Mi perfil</a></li>
+            <li><a href="#" data-target="user-wall" class="nav-link header">Mi muro</a></li>
+          </ul>
+        </div>
+      </menu>
+      <button id="logout" class="btn">Cerrar sesión</button>
+    </nav>
+  </header>
+  
+  
   <!-- section login  -->
   <section id="login" class="page active">
-    
+
     <div id="firebaseui-auth-container"></div>
     <div id="loader">Loading...</div>
-    
+
   </section>
-  
-  <div id="private-information">
-    <menu id="general-menu" >
-      <ol>
-        <li><a href="#" data-target="user-information" class="nav-link">Registro de Usuario</a></li>
-        <li><a href="#" data-target="profile" class="nav-link">Mi perfil</a></li>
-        <li><a href="#" data-target="user-wall" class="nav-link">Mi muro</a></li>
-      </ol>
-      <button id="logout">Cerrar sesión</button>
-    </menu>
-  </div>
 
   <!-- user information -->
   <section id="user-information" class="page">
@@ -67,7 +78,7 @@
         </div>
         <div class="col-md-3 mb-3">
           <label for="validationServer05">Tu edad</label>
-          <input type="text" class="form-control" id="validationServer05" placeholder="Edad" required>
+          <input type="number" class="form-control" id="validationServer05" placeholder="Edad" required>
           <div class="invalid-feedback">
             Por favor ingresa tu edad.
           </div>
@@ -88,7 +99,7 @@
       </div>
       <div class="form-row">
         <div class="col-md-6 mb-3">
-          <label for="validationServer03">Estado</label>
+          <label for="validationServer03">Estado/Ciudad</label>
           <input type="text" class="form-control" id="validationServer03" placeholder="Estado" required>
           <div class="invalid-feedback">
             Por favor dinos de que Estado eres.
@@ -96,8 +107,8 @@
         </div>
         <div class="col-md-3 mb-3">
           <label for="validationServer04">Intereses</label>
-          <input type="text" class="form-control" id="validationServer04" placeholder="Música, películas, libros, vídeo juegos, etc."
-            required>
+          <input type="text" class="form-control" id="validationServer04"
+            placeholder="Música, películas, libros, vídeo juegos, etc." required>
           <div class="invalid-feedback">
             Por favor llena este campo, para que te conozcan mejor.
           </div>
@@ -114,23 +125,25 @@
   <!-- profile -->
   <section id="profile" class="page">
     <div class="container-fluid bg-1 text-center">
-      <h3>Perfil</h3>
-      <img src="../images/lors.jpg" class="img-circle" alt="Bird" width="85" height="85">
-      <h3>Soy Lorena</h3>
+      <h3>Mi perfil</h3>
+      <figure id="user-photo" class="img-circle"></figure>
+      <!-- <img  class="img-circle" alt="Bird" width="85" height="85"> -->
+      <h3>Soy <span id="user-name"></span></h3>
     </div>
 
     <div class="container-fluid bg-2 text-center">
-      <h3>Me gusta que me digan Lors</h3>
+      <h3>Me gusta que me digan <span id="nick-name"></span></h3>
     </div>
 
     <div class="container-fluid bg-3 text-center">
-      <h3>Me gustan los libros, el rock, los negocios y la tecnología! </h3>
+      <h3>Me gustan <span id="preferences"></span></h3>
     </div>
   </section>
 
   <!-- posts -->
   <section id="user-wall" class="page">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Hacer
+    <button id="post-btn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+      data-whatever="@mdo">Hacer
       Publicacíon</button>
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
@@ -152,7 +165,7 @@
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" id="post-btn" data-dismiss="modal">Publicar</button>
+            <button type="submit" class="btn btn-secondary" id="post" data-dismiss="modal">Publicar</button>
 
           </div>
         </div>
@@ -165,12 +178,15 @@
   <script src="https://www.gstatic.com/firebasejs/5.7.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.7.1/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.7.1/firebase-database.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
   <script src="../javascripts/firebase.js"></script>
   <script src="../javascripts/login.js"></script>
   <script src="../javascripts/main.js"></script>
