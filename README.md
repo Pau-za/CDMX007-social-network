@@ -15,7 +15,15 @@ El nombre de nuestra Red Social es *Tejiendo en Azul*. La palabra "tejiendo" la 
 
 ### Prototipos: Tejiendo en Azul
 
-A continuación presentamos nuestros prototipos de baja y alta fidelidad:
+A continuación presentamos nuestro prototipo de alta fidelidad:
+
+![loader-HFP](https://github.com/Pau-za/CDMX007-social-network/blob/master/public/images/HFP/loader.PNG)
+
+![login-HFP](https://github.com/Pau-za/CDMX007-social-network/blob/master/public/images/HFP/login.PNG)
+
+![register-HFP](https://github.com/Pau-za/CDMX007-social-network/blob/master/public/images/HFP/register.PNG)
+
+![wall-HFP](https://github.com/Pau-za/CDMX007-social-network/blob/master/public/images/HFP/wall.PNG)
 
 ### Encuesta
 
@@ -25,9 +33,19 @@ Obtuvimos dos respuestas de personas dentro del Espectro, y 3 respuestas de pers
 
 ### Principales funcionalidades del producto
 
+Actaualmente la página le permite al usuario registrarse con su cuenta de [Facebook](https://www.facebook.com/) y de [Google](https://www.google.com/). 
 
-### Usability Tests
+En cuanto el usuario ingresa a la red social, tiene que llenar un formulario mediante el cual obtenemos su información personal, la cual guarda en nuestra base de datos, alojada en [Firebase](https://firebase.google.com/). 
 
+Una vez que el usuario ha ingresado su datos, la información del usuario se puede ver reflejada en su perfil. Además puede comenzar a realizar publicaciones en el muro general.
+
+El usuario activo pude ver, desde su cuenta que solo sus publicaciones tienen dos botones, uno con un ícono de un bote de basura que le indica que puede eliminar la publicación, y otro que le indica que puede editar su publicación. Hasta este momento, únicamente tiene la función de eliminar publicaciones. Estamos trabajando en la edición de las mismas.
+
+Finalmente el usuario puede cerrar sesión con la seguridad de que su información estará intacta para cuando vuelva a ingresar a la plataforma.
+
+### Pruebas de usabilidad
+
+En las pruebas de usabilidad
 
 ### Cómo asegurarnos de que los usuarios utilicen la red
 
